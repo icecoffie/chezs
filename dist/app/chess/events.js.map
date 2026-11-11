@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "names": [
+    "cutsceneFor",
+    "facts",
+    "setting",
+    "checkmate",
+    "promotion",
+    "captured",
+    "role",
+    "sacrifice",
+    "enPassant",
+    "rook",
+    "check"
+  ],
+  "sources": [
+    "../../../../src/app/chess/events.ts"
+  ],
+  "mappings": "AAAA;;;;;;AAsBA,OAAO,MAAMA,WAAW,GAAGA,CACzBC,KAAgB,EAChBC,OAA8B,KACd;EAChB,IAAIA,OAAO,KAAK,KAAK,EAAE,OAAO,MAAM;EACpC,IAAID,KAAK,CAACE,SAAS,EAAE,OAAO,WAAW;EACvC,IAAIF,KAAK,CAACG,SAAS,EAAE,OAAO,WAAW;EACvC,IAAIH,KAAK,CAACI,QAAQ,EAAEC,IAAI,KAAK,OAAO,EAAE,OAAO,aAAa;EAC1D,IAAIL,KAAK,CAACM,SAAS,EAAE,OAAO,WAAW;EACvC,IAAIN,KAAK,CAACO,SAAS,EAAE,OAAO,YAAY;EACxC,IACEP,KAAK,CAACI,QAAQ,KACbJ,KAAK,CAACI,QAAQ,CAACC,IAAI,KAAK,MAAM,IAAIJ,OAAO,KAAK,UAAU,CAAC,EAE1D,OAAO,SAAS;EAClB,IAAID,KAAK,CAACQ,IAAI,EAAE,OAAO,QAAQ;EAC/B,IAAIR,KAAK,CAACS,KAAK,EAAE,OAAO,OAAO;EAC/B,OAAO,MAAM;AACf,CAAC",
+  "ignoreList": []
+}

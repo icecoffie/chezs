@@ -1,0 +1,127 @@
+[
+  {
+    "id": "pip",
+    "name": "Pip Hartley",
+    "title": "Club junior",
+    "rating": 500,
+    "world": "club-room",
+    "figure": "pawn",
+    "style": "Grabs anything that isn't nailed down.",
+    "greeting": "Is it my go? Oh, it's yours. Sorry.",
+    "onWin": "I won? Wait till I tell the others!",
+    "onLoss": "Well played. Which one was the horse again?",
+    "play": {
+      "kind": "human",
+      "depth": 3,
+      "lines": 8,
+      "temper": 190,
+      "blunder": 0.22,
+      "aggression": 60
+    }
+  },
+  {
+    "id": "wren",
+    "name": "Wren Takeda",
+    "title": "Weekend regular",
+    "rating": 800,
+    "world": "ink-garden",
+    "figure": "pawn",
+    "style": "Quiet and tidy, and misses what is two moves away.",
+    "greeting": "Shall we begin? I've brought tea.",
+    "onWin": "A pleasant game. The tea has gone cold.",
+    "onLoss": "Ah. I see it now. Very tidy.",
+    "play": {
+      "kind": "human",
+      "depth": 5,
+      "lines": 6,
+      "temper": 110,
+      "blunder": 0.12,
+      "aggression": -20
+    }
+  },
+  {
+    "id": "soren",
+    "name": "Søren Vik",
+    "title": "Class C",
+    "rating": 1100,
+    "world": "glacier",
+    "figure": "knight",
+    "style": "Patient. Locks the position and waits for you to slip.",
+    "greeting": "No hurry. It's a long winter.",
+    "onWin": "You cracked first. People do.",
+    "onLoss": "The ice gave way. Good.",
+    "play": {
+      "kind": "human",
+      "depth": 8,
+      "lines": 5,
+      "temper": 60,
+      "blunder": 0.05,
+      "aggression": -40
+    }
+  },
+  {
+    "id": "marisol",
+    "name": "Marisol Reyes",
+    "title": "Class B",
+    "rating": 1400,
+    "world": "courtyard",
+    "figure": "bishop",
+    "style": "Sacrifices first and calculates afterward.",
+    "greeting": "Mind the sun. It's always in someone's eyes.",
+    "onWin": "Sit in the shade a while. Come back cooler.",
+    "onLoss": "Ha! Old bronze keeps its edge.",
+    "play": { "kind": "elo", "elo": 1400, "movetime": 500 }
+  },
+  {
+    "id": "dex",
+    "name": "Dex Okafor",
+    "title": "Class A",
+    "rating": 1750,
+    "world": "arcade",
+    "figure": "rook",
+    "style": "Fast hands, trick openings, no mercy on the clock.",
+    "greeting": "Insert coin. Let's see your combos.",
+    "onWin": "Game over. High score stays mine.",
+    "onLoss": "Okay. Okay! Put your initials up.",
+    "play": { "kind": "elo", "elo": 1750, "movetime": 600 }
+  },
+  {
+    "id": "amara",
+    "name": "Amara Lindqvist",
+    "title": "Expert",
+    "rating": 2050,
+    "world": "jade-temple",
+    "figure": "knight",
+    "style": "Outposts, weak squares and slow strangulation.",
+    "greeting": "Every square remembers who neglected it.",
+    "onWin": "You gave me one square. One was enough.",
+    "onLoss": "You held every square. I bow.",
+    "play": { "kind": "elo", "elo": 2050, "movetime": 800 }
+  },
+  {
+    "id": "halloran",
+    "name": "Dr. Ines Halloran",
+    "title": "International Master",
+    "rating": 2400,
+    "world": "observatory",
+    "figure": "queen",
+    "style": "Has charted this endgame already.",
+    "greeting": "Let us see where the calculation leads.",
+    "onWin": "It was in the tables from move thirty.",
+    "onLoss": "Remarkable. That line wasn't in my notes.",
+    "play": { "kind": "elo", "elo": 2400, "movetime": 1100 }
+  },
+  {
+    "id": "aurelio",
+    "name": "Aurelio Conti",
+    "title": "Grandmaster",
+    "rating": 2800,
+    "world": "grand-hall",
+    "figure": "king",
+    "style": "Holds the eighth rank. Nobody has walked past.",
+    "greeting": "You have come a long way for a pawn.",
+    "onWin": "Go back down. Climb again.",
+    "onLoss": "Then the eighth rank is yours. Promote.",
+    "play": { "kind": "full", "movetime": 1500 }
+  }
+]

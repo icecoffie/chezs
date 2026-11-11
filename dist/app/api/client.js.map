@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "names": [
+    "QueryClient",
+    "QueryClientProvider",
+    "client",
+    "defaultOptions",
+    "queries",
+    "staleTime",
+    "Infinity",
+    "gcTime",
+    "retry",
+    "refetchOnWindowFocus",
+    "ApiProvider",
+    "children",
+    "_jsx"
+  ],
+  "sources": [
+    "../../../../src/app/api/client.tsx"
+  ],
+  "mappings": ";AAAA;;;;;;AAOA;AACA,SAASA,WAAW,EAAEC,mBAAmB,QAAQ,uBAAuB;AAGxE,MAAMC,MAAM,GAAG,IAAIF,WAAW,CAAC;EAC7BG,cAAc,EAAE;IACdC,OAAO,EAAE;MACPC,SAAS,EAAEC,QAAQ;MACnBC,MAAM,EAAED,QAAQ;MAChBE,KAAK,EAAE,CAAC;MACRC,oBAAoB,EAAE;;;CAG3B,CAAC;AAEF,OAAO,MAAMC,WAAW,GAAGA,CAAC;EAAEC;AAAQ,CAA2B,KAC/DC,IAAA,CAACX,mBAAmB;EAACC,MAAM,EAAEA,MAAM;EAAAS,QAAA,EAAGA;AAAQ,EAC/C",
+  "ignoreList": []
+}
