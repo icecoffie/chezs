@@ -1,0 +1,493 @@
+[
+  {
+    "id": "club-room",
+    "name": "The Club Room",
+    "tagline": "Polished marble on dark walnut, in a wood-panelled lounge.",
+    "swatch": {
+      "light": "#e2dacb",
+      "dark": "#2b2620",
+      "frame": "#3a2f26"
+    },
+    "recipe": "wood",
+    "demise": "shatter",
+    "palette": {
+      "ground": "#17110c",
+      "panel": "#241a12",
+      "ink": "#f1e4cf",
+      "muted": "#b09a7c",
+      "accent": "#e0b870",
+      "alert": "#ff8a3c",
+      "move": "#e6c98f"
+    },
+    "light": {
+      "key": "#ffe3bd",
+      "keyPower": 1.7,
+      "rim": "#e8c49a",
+      "rimPower": 0.5,
+      "fill": 0.5
+    },
+    "sky": {
+      "top": "#0d0906",
+      "horizon": "#2c1c0f"
+    },
+    "motes": {
+      "kind": "dust",
+      "color": "#ffd9a0",
+      "count": 26,
+      "size": 0.01
+    },
+    "debris": "#e8dfd0",
+    "scan": {
+      "dir": "club-room",
+      "hdri": "lounge.hdr",
+      "tableRepeat": 6,
+      "backdrop": 0.4,
+      "clearcoat": 0.3,
+      "shardLight": "#e6ddcf",
+      "shardDark": "#2e2c27",
+      "tableTint": "#6b564a",
+      "reflection": 0.1,
+      "paint": false,
+      "glow": {
+        "bloom": 0.25,
+        "threshold": 1.1
+      },
+      "label": {
+        "color": "#efe4c8",
+        "edge": "#1a1610",
+        "metal": 0,
+        "rough": 0.5
+      }
+    }
+  },
+  {
+    "id": "ink-garden",
+    "name": "The Ink Garden",
+    "tagline": "Porcelain and wet ink on raked paper.",
+    "swatch": {
+      "light": "#b8ae98",
+      "dark": "#5e5b53",
+      "frame": "#5a4a38"
+    },
+    "recipe": "ink",
+    "demise": "inkburst",
+    "palette": {
+      "ground": "#ece6d8",
+      "panel": "#f7f2e6",
+      "ink": "#1b1a18",
+      "muted": "#6d675b",
+      "accent": "#b5402a",
+      "alert": "#b5402a",
+      "move": "#c4543a"
+    },
+    "light": {
+      "key": "#fff4e0",
+      "keyPower": 1.5,
+      "rim": "#f0e6d0",
+      "rimPower": 0.18,
+      "fill": 0.5
+    },
+    "sky": {
+      "top": "#f4efe3",
+      "horizon": "#dcd4c2"
+    },
+    "motes": {
+      "kind": "petal",
+      "color": "#b5402a",
+      "count": 40,
+      "size": 0.03
+    },
+    "debris": "#1b1a18",
+    "scan": {
+      "dir": "ink-garden",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 5,
+      "backdrop": 0.55,
+      "clearcoat": 0.5,
+      "shardLight": "#e8e2d4",
+      "shardDark": "#141414",
+      "tableTint": "#b8ad98",
+      "reflection": 0.04,
+      "glow": {
+        "bloom": 0.06,
+        "threshold": 1.4
+      },
+      "label": {
+        "color": "#d9ccb2",
+        "edge": "#2a2118",
+        "metal": 0,
+        "rough": 0.6
+      }
+    }
+  },
+  {
+    "id": "glacier",
+    "name": "The Glacier",
+    "tagline": "Clear ice against blue-black rock.",
+    "swatch": {
+      "light": "#8fabb8",
+      "dark": "#3a5a6c",
+      "frame": "#3a3f44"
+    },
+    "recipe": "ice",
+    "demise": "shatter",
+    "palette": {
+      "ground": "#07131d",
+      "panel": "#0e2130",
+      "ink": "#e6f6ff",
+      "muted": "#8fb4c9",
+      "accent": "#7fe3ff",
+      "alert": "#ffc14d",
+      "move": "#f0f8fb"
+    },
+    "light": {
+      "key": "#dff0ff",
+      "keyPower": 1.7,
+      "rim": "#9fdcff",
+      "rimPower": 0.18,
+      "fill": 0.55
+    },
+    "sky": {
+      "top": "#040b12",
+      "horizon": "#14384e"
+    },
+    "motes": {
+      "kind": "snow",
+      "color": "#e6f6ff",
+      "count": 45,
+      "size": 0.008
+    },
+    "debris": "#c9efff",
+    "scan": {
+      "dir": "glacier",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 2,
+      "backdrop": 1,
+      "clearcoat": 0.4,
+      "shardLight": "#d8f0fa",
+      "shardDark": "#102a3e",
+      "tableTint": "#ffffff",
+      "reflection": 0.1,
+      "glow": {
+        "bloom": 0.08,
+        "threshold": 1.3
+      },
+      "label": {
+        "color": "#dfe8ee",
+        "edge": "#2c363e",
+        "metal": 0,
+        "rough": 0.7
+      }
+    }
+  },
+  {
+    "id": "courtyard",
+    "name": "The Courtyard",
+    "tagline": "Pale travertine and old bronze on terracotta, in low afternoon sun.",
+    "swatch": {
+      "light": "#c9bda3",
+      "dark": "#86502f",
+      "frame": "#6a4e34"
+    },
+    "recipe": "courtyard",
+    "demise": "crumble",
+    "palette": {
+      "ground": "#1c130d",
+      "panel": "#2a1c13",
+      "ink": "#f6ead8",
+      "muted": "#bda68a",
+      "accent": "#d9975c",
+      "alert": "#ffb45e",
+      "move": "#fff0c4"
+    },
+    "light": {
+      "key": "#fff4e4",
+      "keyPower": 3,
+      "rim": "#bcd4f0",
+      "rimPower": 0.18,
+      "fill": 0.8,
+      "from": [-3.8, 5.6, 2]
+    },
+    "sky": {
+      "top": "#6f9fd0",
+      "horizon": "#ead2ae"
+    },
+    "motes": {
+      "kind": "dust",
+      "color": "#f0dcb8",
+      "count": 40,
+      "size": 0.01
+    },
+    "debris": "#c9b48f",
+    "scan": {
+      "dir": "courtyard",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 3,
+      "backdrop": 1,
+      "clearcoat": 0,
+      "shardLight": "#c9bda3",
+      "shardDark": "#3a2715",
+      "tableTint": "#b4afa6",
+      "reflection": 0.02,
+      "glow": {
+        "bloom": 0.06,
+        "threshold": 1.4
+      },
+      "label": {
+        "color": "#e0caa0",
+        "edge": "#2a1c10",
+        "metal": 0,
+        "rough": 0.6
+      }
+    }
+  },
+  {
+    "id": "arcade",
+    "name": "The Arcade",
+    "tagline": "Lacquered cabinets, phosphor glow, one credit left.",
+    "swatch": {
+      "light": "#2f9fb0",
+      "dark": "#463f70",
+      "frame": "#3a3844"
+    },
+    "recipe": "arcade",
+    "demise": "pixelate",
+    "palette": {
+      "ground": "#0a0716",
+      "panel": "#151030",
+      "ink": "#f4efff",
+      "muted": "#a79fd0",
+      "accent": "#ff4fd8",
+      "alert": "#ffe14d",
+      "move": "#a6f0ff"
+    },
+    "light": {
+      "key": "#d4d8ec",
+      "keyPower": 1.8,
+      "rim": "#ff3fb0",
+      "rimPower": 0.18,
+      "fill": 1.2
+    },
+    "sky": {
+      "top": "#05030c",
+      "horizon": "#2a1357"
+    },
+    "motes": {
+      "kind": "pixel",
+      "color": "#3df2ff",
+      "count": 0,
+      "size": 0.02
+    },
+    "debris": "#3df2ff",
+    "scan": {
+      "dir": "arcade",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 5,
+      "backdrop": 1,
+      "clearcoat": 0.7,
+      "shardLight": "#e4f6ff",
+      "shardDark": "#1c1036",
+      "tableTint": "#b8acdc",
+      "reflection": 0.12,
+      "glow": {
+        "bloom": 0.14,
+        "threshold": 1.2
+      },
+      "label": {
+        "color": "#dcd8e4",
+        "edge": "#24232b",
+        "metal": 0,
+        "rough": 0.6
+      }
+    }
+  },
+  {
+    "id": "jade-temple",
+    "name": "The Jade Temple",
+    "tagline": "Carved jade and lacquer, gold in the lines.",
+    "swatch": {
+      "light": "#a6b89e",
+      "dark": "#2c5c4a",
+      "frame": "#4d3820"
+    },
+    "recipe": "jade",
+    "demise": "shatter",
+    "palette": {
+      "ground": "#08120f",
+      "panel": "#10231d",
+      "ink": "#eff6e7",
+      "muted": "#9db8a4",
+      "accent": "#e6bf5a",
+      "alert": "#ff9b4a",
+      "move": "#f0d890"
+    },
+    "light": {
+      "key": "#fff0cc",
+      "keyPower": 2,
+      "rim": "#c9e8c8",
+      "rimPower": 0.18,
+      "fill": 1.1
+    },
+    "sky": {
+      "top": "#040a08",
+      "horizon": "#173a2c"
+    },
+    "motes": {
+      "kind": "dust",
+      "color": "#e6bf5a",
+      "count": 40,
+      "size": 0.01
+    },
+    "debris": "#7fd8ae",
+    "scan": {
+      "dir": "jade-temple",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 4,
+      "backdrop": 1,
+      "clearcoat": 0.7,
+      "shardLight": "#b8e4c6",
+      "shardDark": "#4c1016",
+      "tableTint": "#59665c",
+      "reflection": 0.08,
+      "glow": {
+        "bloom": 0.06,
+        "threshold": 1.3
+      },
+      "labelAt": 0.26,
+      "label": {
+        "color": "#e0c584",
+        "edge": "#2a1c0c",
+        "metal": 0,
+        "rough": 0.5
+      }
+    }
+  },
+  {
+    "id": "observatory",
+    "name": "The Observatory",
+    "tagline": "Polished brass and midnight enamel beneath the dome.",
+    "swatch": {
+      "light": "#d6cbae",
+      "dark": "#28305a",
+      "frame": "#7e6838"
+    },
+    "recipe": "observatory",
+    "demise": "collapse",
+    "palette": {
+      "ground": "#05060f",
+      "panel": "#0d1024",
+      "ink": "#f2ecd9",
+      "muted": "#a3a2b8",
+      "accent": "#ecc26b",
+      "alert": "#ff9f5a",
+      "move": "#f4e2a8"
+    },
+    "light": {
+      "key": "#fff0d0",
+      "keyPower": 2.6,
+      "rim": "#7c8cff",
+      "rimPower": 0.18,
+      "fill": 1.3
+    },
+    "sky": {
+      "top": "#02030a",
+      "horizon": "#141a42"
+    },
+    "motes": {
+      "kind": "star",
+      "color": "#fff4d6",
+      "count": 60,
+      "size": 0.012
+    },
+    "debris": "#ecc26b",
+    "scan": {
+      "dir": "observatory",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 4,
+      "backdrop": 1,
+      "clearcoat": 0.5,
+      "shardLight": "#d8b56c",
+      "shardDark": "#141c5a",
+      "tableTint": "#7a80a0",
+      "reflection": 0.1,
+      "glow": {
+        "bloom": 0.08,
+        "threshold": 1.3
+      },
+      "labelAt": 0.28,
+      "label": {
+        "color": "#2a1d0b",
+        "edge": "#b79c60",
+        "metal": 0,
+        "rough": 0.6
+      }
+    }
+  },
+  {
+    "id": "grand-hall",
+    "name": "The Grand Hall",
+    "tagline": "Carrara and Nero Marquina, for the last game of the climb.",
+    "swatch": {
+      "light": "#d6d1c6",
+      "dark": "#3d3d44",
+      "frame": "#6e5e42"
+    },
+    "recipe": "marble",
+    "demise": "shatter",
+    "palette": {
+      "ground": "#0b0a0c",
+      "panel": "#17151a",
+      "ink": "#f6f1e8",
+      "muted": "#aaa39a",
+      "accent": "#e4c078",
+      "alert": "#ff9d5c",
+      "move": "#e6d09a"
+    },
+    "light": {
+      "key": "#fff3df",
+      "keyPower": 1.7,
+      "rim": "#e8d8b8",
+      "rimPower": 0.18,
+      "fill": 0.55
+    },
+    "sky": {
+      "top": "#060507",
+      "horizon": "#26222a"
+    },
+    "motes": {
+      "kind": "dust",
+      "color": "#fff0d8",
+      "count": 40,
+      "size": 0.01
+    },
+    "debris": "#efe9de",
+    "scan": {
+      "dir": "grand-hall",
+      "hdri": "room.hdr",
+      "paint": true,
+      "tableRepeat": 3,
+      "backdrop": 0.5,
+      "clearcoat": 0.9,
+      "shardLight": "#e4e1da",
+      "shardDark": "#141416",
+      "tableTint": "#6d645a",
+      "reflection": 0.12,
+      "label": {
+        "color": "#e0c88f",
+        "edge": "#1a1208",
+        "metal": 0.2,
+        "rough": 0.45
+      },
+      "glow": {
+        "bloom": 0.05,
+        "threshold": 1.4
+      }
+    }
+  }
+]
